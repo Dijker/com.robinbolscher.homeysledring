@@ -5,7 +5,12 @@
         "en": "Homey's LED Ring"
     },
     "description": {
-        "en": "Let's you control Homey's LED ring as a regular device"
+        "en": "Let's you control Homey's LED ring as a regular device",
+        "nl": "Bedien Homey's LED ring als een reguliere lamp in Homey"
+    },
+    "images": {
+        "large": "/assets/images/large.png",
+        "small": "/assets/images/small.png"
     },
     "permissions": [
         "homey:manager:api"
@@ -15,7 +20,7 @@
     "compatibility": ">=1.5.0",
     "author": {
         "name": "Robin Bolscher",
-        "email": "robin@athom.nl"
+        "email": "robinbolscher@gmail.com"
     },
     "drivers": [
         {
@@ -29,6 +34,10 @@
                 "onoff",
                 "dim"
             ],
+            "images": {
+                "large": "/drivers/homey_ledring/assets/images/large.png",
+                "small": "/drivers/homey_ledring/assets/images/small.png"
+            },
             "pair": [
                 {
                     "id": "list_devices",
