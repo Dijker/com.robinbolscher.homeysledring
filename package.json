@@ -1,0 +1,16 @@
+{
+  "name": "com.robinbolscher.ledringdevice",
+  "version": "1.0.0",
+  "description": "Let's you control Homey's LED ring as a device",
+  "main": "app.js",
+  "dependencies": {
+    "athom-api": "^2.0.17",
+    "request": "^2.82.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
